@@ -124,7 +124,7 @@ results/       metrics.json, plots, example audio from the latest run
 ## Acknowledgements
 
 The CNN formulation (shift operators, filterbanks and MIMO filters) follows the
-material from Penn's ESE 2000 AI lab (Lab 2B: Convolutional Neural Networks).
+material I learned from Penn's ESE 2000 AI lab work.
 
 ## License
 
