@@ -10,9 +10,9 @@ It covers two use cases:
 - **Clear amplification for Deaf and hard-of-hearing users**, where background
   noise and distortion make amplified speech hard to follow.
 
-Premium ANC and hearing devices are out of reach for most *wananchi*. So the
+Premium ANC and hearing devices are out of reach for the common *mwananchi*(citizen). So the
 model is kept very small: a **2-layer convolutional neural network with 400
-parameters**. That is small enough for the cheap microcontrollers and DSPs that
+parameters** that is small enough for the cheap microcontrollers and DSPs that
 go into budget earbuds.
 
 ![Example](results/example_test_sample.png)
