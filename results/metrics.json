@@ -1,0 +1,41 @@
+{
+  "config": {
+    "data": "data/skiza_pairs.pt",
+    "pairs": 300,
+    "test_size": 50,
+    "taps": [
+      40,
+      40
+    ],
+    "features": [
+      1,
+      5,
+      1
+    ],
+    "lr": 0.5,
+    "batch_size": 32,
+    "epochs": 20,
+    "seed": 1,
+    "out": "results",
+    "no_baseline_cnn": false
+  },
+  "train_pairs": 250,
+  "test_pairs": 50,
+  "noisy_input": {
+    "train_l1": 0.03442738110351563,
+    "test_l1": 0.033208448486328125
+  },
+  "single_channel_cnn": {
+    "params": 80,
+    "train_l1": 0.029146596435546877,
+    "test_l1": 0.028052994384765623
+  },
+  "skiza_mimo_cnn": {
+    "params": 400,
+    "train_l1": 0.0291544423828125,
+    "test_l1": 0.027914351806640626
+  },
+  "test_l1_reduction_vs_noisy_input_pct": 15.942017531674422,
+  "train_seconds": 16.0,
+  "test_l1_reduction_vs_single_channel_cnn_pct": 0.49421668226721616
+}
